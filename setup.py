@@ -16,7 +16,7 @@ setup(
     author_email='devon.meunier@gmail.com',
     url='https://github.com/meunierd/pytest-pride',
     long_description=read("README.md"),
-    version='0.1',
+    version='0.1.1',
     py_modules=['pytest_pride'],
     entry_points={'pytest11': ['pride = pytest_pride']},
     install_requires=['pytest>=2.0'],
