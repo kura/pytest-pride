@@ -4,8 +4,8 @@ from itertools import cycle
 
 class Colorer(object):
 
-    escseq = "\x1b["
-    endseq = "\x1b[0m"
+    escseq = "\033["
+    endseq = "\033[0m"
     format = "{0}38;5;{1}m{2}{3}"
 
     def __init__(self):
